@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+assembly="CWM.Core"
+namespace="CWM.Core.Domain">
+    <class name="Subscriber" table="Subscriber">
+        <id name="ID" column="ID">
+            <generator class="identity"></generator>
+        </id>
+        <property name="Email" />
+    </class>
+</hibernate-mapping>

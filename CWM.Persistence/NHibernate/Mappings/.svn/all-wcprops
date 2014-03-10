@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Persistence/NHibernate/Mappings
+END
+PageApplicationView.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Persistence/NHibernate/Mappings/PageApplicationView.hbm.xml
+END
+Page.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/DPProjects/!svn/ver/406/trunk/CWM/CWM.Persistence/NHibernate/Mappings/Page.hbm.xml
+END
+ApplicationView.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Persistence/NHibernate/Mappings/ApplicationView.hbm.xml
+END
+User.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Persistence/NHibernate/Mappings/User.hbm.xml
+END
+PollOption.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/DPProjects/!svn/ver/406/trunk/CWM/CWM.Persistence/NHibernate/Mappings/PollOption.hbm.xml
+END
+HomeSideBar.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Persistence/NHibernate/Mappings/HomeSideBar.hbm.xml
+END
+Blog.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/DPProjects/!svn/ver/411/trunk/CWM/CWM.Persistence/NHibernate/Mappings/Blog.hbm.xml
+END
+Subscriber.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/DPProjects/!svn/ver/406/trunk/CWM/CWM.Persistence/NHibernate/Mappings/Subscriber.hbm.xml
+END
+PollResult.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/DPProjects/!svn/ver/411/trunk/CWM/CWM.Persistence/NHibernate/Mappings/PollResult.hbm.xml
+END
+Poll.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/DPProjects/!svn/ver/406/trunk/CWM/CWM.Persistence/NHibernate/Mappings/Poll.hbm.xml
+END
+PageContent.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Persistence/NHibernate/Mappings/PageContent.hbm.xml
+END
+BannerImage.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Persistence/NHibernate/Mappings/BannerImage.hbm.xml
+END
+PageLink.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Persistence/NHibernate/Mappings/PageLink.hbm.xml
+END

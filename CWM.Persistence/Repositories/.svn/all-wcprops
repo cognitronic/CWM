@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Persistence/Repositories
+END
+PageApplicationViewRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Persistence/Repositories/PageApplicationViewRepository.cs
+END
+PageRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/DPProjects/!svn/ver/406/trunk/CWM/CWM.Persistence/Repositories/PageRepository.cs
+END
+ApplicationViewRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Persistence/Repositories/ApplicationViewRepository.cs
+END
+UserRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/DPProjects/!svn/ver/406/trunk/CWM/CWM.Persistence/Repositories/UserRepository.cs
+END
+PollOptionRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/DPProjects/!svn/ver/406/trunk/CWM/CWM.Persistence/Repositories/PollOptionRepository.cs
+END
+HomeSideBarRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Persistence/Repositories/HomeSideBarRepository.cs
+END
+BlogRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/DPProjects/!svn/ver/411/trunk/CWM/CWM.Persistence/Repositories/BlogRepository.cs
+END
+SubscriberRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/DPProjects/!svn/ver/406/trunk/CWM/CWM.Persistence/Repositories/SubscriberRepository.cs
+END
+PollResultRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/DPProjects/!svn/ver/406/trunk/CWM/CWM.Persistence/Repositories/PollResultRepository.cs
+END
+PollRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/DPProjects/!svn/ver/406/trunk/CWM/CWM.Persistence/Repositories/PollRepository.cs
+END
+PageContentRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Persistence/Repositories/PageContentRepository.cs
+END
+BannerImageRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Persistence/Repositories/BannerImageRepository.cs
+END
+PageLinkRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Persistence/Repositories/PageLinkRepository.cs
+END

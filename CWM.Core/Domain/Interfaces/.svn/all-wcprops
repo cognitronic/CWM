@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Core/Domain/Interfaces
+END
+IHomeSideBar.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Core/Domain/Interfaces/IHomeSideBar.cs
+END
+IBlog.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/DPProjects/!svn/ver/411/trunk/CWM/CWM.Core/Domain/Interfaces/IBlog.cs
+END
+IPollResult.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/DPProjects/!svn/ver/411/trunk/CWM/CWM.Core/Domain/Interfaces/IPollResult.cs
+END
+IPoll.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/DPProjects/!svn/ver/406/trunk/CWM/CWM.Core/Domain/Interfaces/IPoll.cs
+END
+IPageContent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Core/Domain/Interfaces/IPageContent.cs
+END
+IBannerImage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Core/Domain/Interfaces/IBannerImage.cs
+END
+IPageLink.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Core/Domain/Interfaces/IPageLink.cs
+END
+IPageApplicationView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Core/Domain/Interfaces/IPageApplicationView.cs
+END
+IPage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/DPProjects/!svn/ver/406/trunk/CWM/CWM.Core/Domain/Interfaces/IPage.cs
+END
+IApplicationView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Core/Domain/Interfaces/IApplicationView.cs
+END
+IItem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Core/Domain/Interfaces/IItem.cs
+END
+IUser.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Core/Domain/Interfaces/IUser.cs
+END
+IPollOption.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/DPProjects/!svn/ver/406/trunk/CWM/CWM.Core/Domain/Interfaces/IPollOption.cs
+END

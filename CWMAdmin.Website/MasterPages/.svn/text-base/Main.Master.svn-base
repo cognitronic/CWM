@@ -1,0 +1,188 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="CWMAdmin.Website.MasterPages.Main" %>
+
+<!DOCTYPE html >
+<!--[if IE 7 ]>    <html class="ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9" lang="en"> <![endif]--> 
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head id="Head1" runat="server">
+   <!-- Meta information -->
+	<meta content="" charset="utf-8" />
+	
+	<title> CWM ~ Stay Classy Modesto!</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta name="robots" content="index, follow" /> 
+	<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE"/>
+	  
+	<!-- favicon & idevice homepage thumb -->
+	<link rel="shortcut icon" href="favicon.jpg" />
+	
+	<!--CSS Compressor-->
+	    <!--Replace all css import statements with 1 of these options - see help file for more info.-->
+	    <!-- option 1 -->
+	    <!--<link rel="stylesheet" href="packs/jscsscomp.php?q=pack.css" />-->
+	    <!-- option 2 -->
+	    <!--<link rel="stylesheet" href="packs/pack.css" />-->
+	<!--end css compressor-->
+	
+	<!-- main stylesheets -->
+	<link rel="stylesheet" href="/Styles/reset.css" />
+	<link rel="stylesheet" href="/Styles/960.css" />
+	<link rel="stylesheet" href="/Styles/text.css" />
+	<link rel="stylesheet" href="/Styles/style.css" />
+	<link rel="stylesheet" href="/Styles/prettyPhoto.css" />
+	
+	<!-- color stylesheet -->
+	<!--<link rel="stylesheet" href="css/dark.css" />-->
+	
+	
+	<!--Js Compressor-->
+	    <!--Replace all js import statements with 1 of these options - see help file for more info.-->
+	    <!-- option 1 -->
+	    <!--<script type="text/javascript" src="packs/jscsscomp.php?q=pack.js"></script>-->
+	    <!-- option 2 -->
+	    <!--<script type="text/javascript" src="packs/pack.js"></script>-->
+	<!--end js compressor-->
+	
+	<!-- import jQuery -->
+	<script type="text/javascript" src="/Scripts/jquery-1.4.4.min.js"></script>
+	<script type="text/javascript" src="/Scripts/style.js"></script>
+	<script type="text/javascript" src="/Scripts/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="/Scripts/jquery.fetch-tweets.js"></script>
+	
+	<!--import custom js file -->
+	<script type="text/javascript" src="/Scripts/modernizr.custom.js"></script>
+	<script type="text/javascript" src="/Scripts/jquery.pixelentity.utils.geom.js"></script>
+	<script type="text/javascript" src="/Scripts/jquery.pixelentity.utils.ticker.js"></script>
+	<script type="text/javascript" src="/Scripts/jquery.pixelentity.transform.js"></script>
+	<script type="text/javascript" src="/Scripts/jquery.pixelentity.kenburns.js"></script>
+	<script type="text/javascript" src="/Scripts/jquery.vid.js"></script>
+	<script type="text/javascript" src="/Scripts/jquery.prettyPhoto.min.js"></script>
+	<script type="text/javascript" src="/Scripts/slider.js"></script>
+	<%--<script type="text/javascript" src="/Scripts/twitter.js"></script>--%>
+	<script type="text/javascript" src="/Scripts/tagrotator.js"></script>
+	<script type="text/javascript" src="/Scripts/faq.js"></script>
+	<script type="text/javascript" src="/Scripts/contact.js"></script>
+	<script type="text/javascript" src="/Scripts/newsletter.js"></script>
+	<script type="text/javascript" src="/Scripts/gmap.js"></script>
+	<script type="text/javascript" src="/Scripts/longinfo.js"></script>
+	<script type="text/javascript" src="/Scripts/prettyPhoto.js"></script>
+	<script type="text/javascript" src="/Scripts/gallery.js"></script>
+	<script type="text/javascript" src="/Scripts/video.js"></script>
+	
+	<!-- font replacement -->
+	<script type="text/javascript" src="/Scripts/cufon_ie9.js"></script>
+	<script type="text/javascript" src="/Scripts/ArdleysHand_500.font.js"></script>
+	<script type="text/javascript" src="/Scripts/Gotham_Narrow_Light_300.font.js"></script>
+	<script type="text/javascript">
+	    Cufon.replace('h2', { fontFamily: 'ArdleysHand' });
+	    //Cufon.replace('#footer h3', { fontFamily: 'Gotham Narrow Light' });
+	    Cufon.replace('#tagline h4', { fontFamily: 'Gotham Narrow Light' });
+
+	</script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class ="clearfix">
+    <form id="form1" runat="server">
+        <telerik:radscriptmanager 
+        ID="RadScriptManager1" 
+        runat="server">
+            <Scripts>
+                <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
+            </Scripts>
+        </telerik:radscriptmanager>
+        <telerik:radajaxmanager 
+        ID="RadAjaxManager1" 
+        runat="server">
+        <AjaxSettings>
+                <telerik:AjaxSetting AjaxControlID="lbNewsletter">
+                    <UpdatedControls>
+                        <telerik:AjaxUpdatedControl ControlID="lblMessage" LoadingPanelID="RadAjaxLoadingPanel1" />
+                    </UpdatedControls>
+                </telerik:AjaxSetting>
+            </AjaxSettings>
+        </telerik:radajaxmanager>
+           <div id="siteWrapper" class="container_16">
+       	
+           <div id="main">
+	    
+		 <div id="header" class="grid_16">
+	   	               
+		    <!--logo-->
+		    <a href="/Home" title="Home"><h1 id="logoHead" class="grid_5">CWM</h1></a>
+		    <h2>home</h2>
+		    
+		    <!--main navigation-->
+		    <ul id="mainNav">
+			    <li class="menu grid_2"><b>Content</b>
+				    <ul class="subMenu">
+					    <li><a href="/Pages.aspx" title="Pages">Pages</a></li>
+					    <li><a href="/Banners.aspx" title="Home Page Banners">Banners</a></li>
+					    <li><a href="/SideBarContent.aspx" title="Side Bar Content">Side Bar Content</a></li>
+                        <li><a href="/Blog.aspx" title="Blog">Blog</a></li>
+                        <li><a href="/Polls.aspx" title="Poll Management">Polls</a></li>
+					    
+				    </ul>
+			    </li>
+                <li class="menu grid_2"><b>Campaign Manager</b>
+				    <ul class="subMenu">
+					    <li><a href="/Modules/CampaignManager/CampaignDashboard.aspx" title="Dashboard">Dashboard</a></li>
+                        <li><a href="/Modules/CampaignManager/Templates.aspx" title="Dashboard">Templates</a></li>
+                        <li><a href="/Modules/CampaignManager/Subscribers.aspx" title="Subscribers">Subscribers</a></li>
+                        <li><a href="/Modules/CampaignManager/Tags.aspx" title="Tags">Tags</a></li>
+				    </ul>
+			    </li>
+			    <li class="menu grid_2"><b>Security</b>
+				    <ul class="subMenu">
+					    <li><a href="/Users.aspx" title="User Management">Users</a></li>
+                        <li>
+                            <asp:LinkButton
+                            runat="server"
+                            ID="lbLogout"
+                            OnClick="LogoutClicked">
+                                Logout
+                            </asp:LinkButton>
+                        </li>
+				    </ul>
+			    </li>
+		    </ul>
+		   
+	       </div>
+
+	   	<!-- end header  -->
+	   	<asp:ContentPlaceHolder ID="cpMainContent" runat="server">
+        
+        </asp:ContentPlaceHolder>
+	   	           
+	   	
+	   	
+	   	
+	   	<!--connect bar-->
+	   	<div id="connect" class="grid_16">
+	   		
+	   			
+	   	</div>
+	   	<!--end connect bar-->
+	   	</div>
+                    
+	</div>  <!-- end site wrapper -->
+	  
+	<!--footer-->
+	<div id="footer" class="container_16">
+	 
+	    
+	     
+	     
+	</div>
+	<!--end footer-->
+
+
+    <div>
+        
+        </div>
+    </form>
+</body>
+</html>

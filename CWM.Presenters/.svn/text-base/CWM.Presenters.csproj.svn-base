@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{20B75A9F-D9D2-410F-A3B8-A9D61AD3D204}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CWM.Presenters</RootNamespace>
+    <AssemblyName>CWM.Presenters</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IdeaSeed.Core">
+      <HintPath>..\References\IdeaSeed.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BannerImagesPresenter.cs" />
+    <Compile Include="BlogListPresenter.cs" />
+    <Compile Include="BlogSideBarPresenter.cs" />
+    <Compile Include="BlogSinglePresenter.cs" />
+    <Compile Include="CWMGridArg.cs" />
+    <Compile Include="DefaultPagePresenter.cs" />
+    <Compile Include="HomeBlogListPresenter.cs" />
+    <Compile Include="HomeSideBarPresenter.cs" />
+    <Compile Include="InternalContentPresenter.cs" />
+    <Compile Include="PageLinksPresenter.cs" />
+    <Compile Include="PollPresenter.cs" />
+    <Compile Include="PrimaryNavPresenter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewInterfaces\IBannerImagesView.cs" />
+    <Compile Include="ViewInterfaces\IBlogListView.cs" />
+    <Compile Include="ViewInterfaces\IBlogSideBarView.cs" />
+    <Compile Include="ViewInterfaces\IBlogSingleView.cs" />
+    <Compile Include="ViewInterfaces\IDefaultPageView.cs" />
+    <Compile Include="ViewInterfaces\IHomeBlogListView.cs" />
+    <Compile Include="ViewInterfaces\IHomeSideBarView.cs" />
+    <Compile Include="ViewInterfaces\IInternalContentView.cs" />
+    <Compile Include="ViewInterfaces\IPageLinksView.cs" />
+    <Compile Include="ViewInterfaces\IPollView.cs" />
+    <Compile Include="ViewInterfaces\IPrimaryNavView.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CWM.Core\CWM.Core.csproj">
+      <Project>{206F6865-AA7F-4C41-87E6-77F303E4A2EC}</Project>
+      <Name>CWM.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CWM.Services\CWM.Services.csproj">
+      <Project>{0995C59A-C380-4C0E-9D4B-03294C79C1BF}</Project>
+      <Name>CWM.Services</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

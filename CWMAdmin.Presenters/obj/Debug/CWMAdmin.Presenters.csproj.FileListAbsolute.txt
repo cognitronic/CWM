@@ -1,0 +1,5 @@
+D:\Projects\CWM\CWMAdmin.Presenters\bin\Debug\CWMAdmin.Presenters.dll
+D:\Projects\CWM\CWMAdmin.Presenters\bin\Debug\CWMAdmin.Presenters.pdb
+D:\Projects\CWM\CWMAdmin.Presenters\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\CWM\CWMAdmin.Presenters\obj\Debug\CWMAdmin.Presenters.dll
+D:\Projects\CWM\CWMAdmin.Presenters\obj\Debug\CWMAdmin.Presenters.pdb

@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<!--
+  For more information on how to configure your ASP.NET application, please visit
+  http://go.microsoft.com/fwlink/?LinkId=169433
+  -->
+<configuration>
+  <configSections>
+    <sectionGroup name="telerik.web.ui">
+      <section name="radScheduler" type="Telerik.Web.UI.RadSchedulerConfigurationSection, Telerik.Web.UI" allowDefinition="MachineToApplication" requirePermission="false" />
+      <section name="radCompression" type="Telerik.Web.UI.RadCompressionConfigurationSection, Telerik.Web.UI, PublicKeyToken=121fae78165ba3d4" allowDefinition="MachineToApplication" requirePermission="false" />
+    </sectionGroup>
+  </configSections>
+  <connectionStrings>
+    <add name="CWM.ConnectionString" connectionString="Data Source=DANIEL-M6400\SQL2008;Initial Catalog=CWM;User ID=dgs;Password=Fir3al" />
+  </connectionStrings>
+  <appSettings>
+    <add key="BLOGIMAGE_1" value="/img/blog_main/post_01_lrg.jpg" />
+    <add key="BLOGIMAGE_2" value="/img/blog_main/post_01_lrg.jpg" />
+    <add key="BLOGIMAGE_3" value="/img/blog_main/post_02_lrg.jpg" />
+    <add key="SMTPHOST" value="smtp.1and1.com"/>
+    <add key="SMTPUSERNAME" value="relay@getdatapath.com"/>
+    <add key="SMTPPWD" value="blu3m00n$"/>
+    <add key="DGSDB" value="(local)\sql2008" />
+    <add key="DBPWD" value="Fir3al" />
+    <add key="DBUSER" value="dgs" />
+    <add key="NEWSLETTER_EMAIL_RECIPIENTS" value="dschreiber@mydatapath.com" />
+    <!-- Begin Campaign Manager-->
+    <add key="BASEURL" value="cwm.localhost" />
+    <add key="HIDDENCAMPAIGNIMAGE" value="http://cwm.localhost/img/TImage.gif" />
+    <add key="NEWSLETTERFROMEMAILADDRESS" value="newsletter@modesto-family.com" />
+    <add key="CAMPAIGNLOGOFILE" value="~/images/logo.png" />
+    <add key="CAMPAIGNTRACKINGPATTERN" value="/images/(?&lt;key&gt;.*)\.aspx" />
+    <add key="CAMPAIGNMANAGER_DASHBOARD_URL" value="~/Modules/CampaignManager/CampaignDashboard.aspx" />
+    <add key="CAMPAIGNMANAGER_TEMPLATES_URL" value="~/Modules/CampaignManager/Templates.aspx" />
+    <add key="CAMPAIGNMANAGER_NEWCAMPAIGN_URL" value="~/Modules/CampaignManager/NewCampaign.aspx" />
+    <add key="CAMPAIGNMANAGER_OPTOUT_URL" value="http://cwm.localhost/NewsletterOptOut.aspx" />
+    <add key="CAMPAIGNMANAGER_FORWARDTOAFRIEND_URL" value="~/Modules/CampaignManager/ForwardToAFriend.aspx" />
+    <add key="CAMPAIGNMANAGER_SUBSCRIBERS_URL" value="~/Modules/CampaignManager/Subscribers.aspx" />
+    <add key="CAMPAIGNMANAGER_TAGS_URL" value="~/Modules/CampaignManager/Tags.aspx" />
+    <!-- Begin Document Paths-->
+    <add key="DOCUMENTPATH" value="d:\Projects\CWM\DataPathCMS.CMS\Documents\" />
+    <add key="DOCUMENTURL" value="~/Documents/" />
+    <!-- End Document Paths-->
+    <!-- Begin Image Paths-->
+    <add key="IMAGEPATH" value="d:\Projects\CWM\CWM.Website\img\newsletter" />
+    <add key="IMAGEURL" value="~/NewsletterImages/" />
+    <!-- End Image Paths-->
+    <!-- End Campaign Manager-->
+  </appSettings>
+  <system.web>
+    <compilation debug="true" targetFramework="4.0">
+      <assemblies>
+        <add assembly="System.Web.Routing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35" />
+        <add assembly="System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=B03F5F7F11D50A3A" />
+        <add assembly="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=B77A5C561934E089" />
+      </assemblies>
+    </compilation>
+    <authentication mode="Forms">
+      <forms loginUrl="~/Login.aspx" timeout="2880" />
+    </authentication>
+    <pages validateRequest="false">
+      <controls>
+        <add tagPrefix="telerik" namespace="Telerik.Web.UI" assembly="Telerik.Web.UI" />
+        <add tagPrefix="idea" namespace="IdeaSeed.Web.UI" assembly="IdeaSeed.Web" />
+      </controls>
+    </pages>
+    <httpRuntime requestValidationMode="2.0" maxRequestLength="102400" />
+    <httpHandlers>
+      <add path="Telerik.Web.UI.WebResource.axd" type="Telerik.Web.UI.WebResource" verb="*" validate="false" />
+      <add path="ChartImage.axd" verb="*" type="Telerik.Web.UI.ChartHttpHandler, Telerik.Web.UI, Version=2011.1.413.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4" validate="false" />
+      <add path="Telerik.Web.UI.DialogHandler.aspx" type="Telerik.Web.UI.DialogHandler" verb="*" validate="false" />
+      <add path="Telerik.Web.UI.SpellCheckHandler.axd" type="Telerik.Web.UI.SpellCheckHandler" verb="*" validate="false" />
+    </httpHandlers>
+  </system.web>
+  <system.webServer>
+    <modules runAllManagedModulesForAllRequests="true" />
+    <validation validateIntegratedModeConfiguration="false" />
+    <handlers>
+      <add name="Telerik_Web_UI_WebResource_axd" verb="*" preCondition="integratedMode" path="Telerik.Web.UI.WebResource.axd" type="Telerik.Web.UI.WebResource" />
+      <add name="ChartHandler" path="ChartImage.axd" verb="*" type="Telerik.Web.UI.ChartHttpHandler, Telerik.Web.UI" />
+      <add name="Telerik_Web_UI_DialogHandler_aspx" verb="*" preCondition="integratedMode" path="Telerik.Web.UI.DialogHandler.aspx" type="Telerik.Web.UI.DialogHandler" />
+      <add name="Telerik_Web_UI_SpellCheckHandler_axd" verb="*" preCondition="integratedMode" path="Telerik.Web.UI.SpellCheckHandler.axd" type="Telerik.Web.UI.SpellCheckHandler" />
+    </handlers>
+  </system.webServer>
+</configuration>

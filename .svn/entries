@@ -1,0 +1,132 @@
+10
+
+dir
+390
+https://dev.mydatapath.com:8443/svn/DPProjects/trunk/CWM
+https://dev.mydatapath.com:8443/svn/DPProjects
+
+
+
+2011-05-17T20:21:33.948284Z
+390
+DSchreiber
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6a5ea7e5-ffef-924a-9aa4-bad404faafd4
+
+CWM.Presenters
+dir
+
+CWMAdmin.Website
+dir
+
+CWM.sln
+file
+406
+
+
+
+2011-07-11T14:48:57.430879Z
+3d33ad1693d5289c1ff62832ffe1fe2c
+2011-07-15T17:22:14.976115Z
+406
+DSchreiber
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5375
+
+References
+dir
+
+CWM.Web
+dir
+
+Extras
+dir
+
+CWM.Website
+dir
+
+CWM.Services
+dir
+
+CWMAdmin.Presenters
+dir
+
+CWM.Persistence
+dir
+
+CWM.PersistenceTest
+dir
+
+CWM.suo
+file
+444
+
+
+
+2011-10-18T21:20:52.751000Z
+2bf3ae6c9274e7376922e11a2dd4c2b0
+2011-10-25T13:49:29.098198Z
+444
+DSchreiber
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+226816
+
+CWMAdmin.Web
+dir
+
+CWM.Core
+dir
+

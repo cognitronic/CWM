@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Services
+END
+SecurityServices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/DPProjects/!svn/ver/411/trunk/CWM/CWM.Services/SecurityServices.cs
+END
+PageViewServices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Services/PageViewServices.cs
+END
+PageContentServices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Services/PageContentServices.cs
+END
+BannerImageServices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/DPProjects/!svn/ver/406/trunk/CWM/CWM.Services/BannerImageServices.cs
+END
+PageServices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/DPProjects/!svn/ver/406/trunk/CWM/CWM.Services/PageServices.cs
+END
+CWM.Services.csproj.user
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/DPProjects/!svn/ver/411/trunk/CWM/CWM.Services/CWM.Services.csproj.user
+END
+UserServices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/DPProjects/!svn/ver/406/trunk/CWM/CWM.Services/UserServices.cs
+END
+HomeSideBarServices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/DPProjects/!svn/ver/406/trunk/CWM/CWM.Services/HomeSideBarServices.cs
+END
+BlogServices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/DPProjects/!svn/ver/411/trunk/CWM/CWM.Services/BlogServices.cs
+END
+PageLinkServices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Services/PageLinkServices.cs
+END
+PollOptionServices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/DPProjects/!svn/ver/406/trunk/CWM/CWM.Services/PollOptionServices.cs
+END
+CWM.Services.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/DPProjects/!svn/ver/411/trunk/CWM/CWM.Services/CWM.Services.csproj
+END
+SubscriberServices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/DPProjects/!svn/ver/406/trunk/CWM/CWM.Services/SubscriberServices.cs
+END
+PollResultServices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/DPProjects/!svn/ver/406/trunk/CWM/CWM.Services/PollResultServices.cs
+END
+PollServices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/DPProjects/!svn/ver/406/trunk/CWM/CWM.Services/PollServices.cs
+END

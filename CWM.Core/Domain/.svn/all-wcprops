@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Core/Domain
+END
+Page.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/DPProjects/!svn/ver/406/trunk/CWM/CWM.Core/Domain/Page.cs
+END
+User.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Core/Domain/User.cs
+END
+HomeSideBar.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Core/Domain/HomeSideBar.cs
+END
+Blog.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/DPProjects/!svn/ver/411/trunk/CWM/CWM.Core/Domain/Blog.cs
+END
+AccessLevel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/DPProjects/!svn/ver/411/trunk/CWM/CWM.Core/Domain/AccessLevel.cs
+END
+PageLink.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Core/Domain/PageLink.cs
+END
+PageApplicationView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Core/Domain/PageApplicationView.cs
+END
+BlogPostType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Core/Domain/BlogPostType.cs
+END
+ApplicationViewLayout.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Core/Domain/ApplicationViewLayout.cs
+END
+Item.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Core/Domain/Item.cs
+END
+ApplicationView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Core/Domain/ApplicationView.cs
+END
+PollOption.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/DPProjects/!svn/ver/406/trunk/CWM/CWM.Core/Domain/PollOption.cs
+END
+ItemType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Core/Domain/ItemType.cs
+END
+NavigationType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Core/Domain/NavigationType.cs
+END
+Subscriber.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/DPProjects/!svn/ver/406/trunk/CWM/CWM.Core/Domain/Subscriber.cs
+END
+PollResult.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/DPProjects/!svn/ver/411/trunk/CWM/CWM.Core/Domain/PollResult.cs
+END
+Poll.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/DPProjects/!svn/ver/406/trunk/CWM/CWM.Core/Domain/Poll.cs
+END
+PageContent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Core/Domain/PageContent.cs
+END
+BannerImage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Core/Domain/BannerImage.cs
+END

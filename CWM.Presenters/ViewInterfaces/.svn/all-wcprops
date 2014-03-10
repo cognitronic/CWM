@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Presenters/ViewInterfaces
+END
+IInternalContentView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Presenters/ViewInterfaces/IInternalContentView.cs
+END
+IHomeBlogListView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Presenters/ViewInterfaces/IHomeBlogListView.cs
+END
+IPrimaryNavView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Presenters/ViewInterfaces/IPrimaryNavView.cs
+END
+IBannerImagesView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Presenters/ViewInterfaces/IBannerImagesView.cs
+END
+IBlogSideBarView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Presenters/ViewInterfaces/IBlogSideBarView.cs
+END
+IPageLinksView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Presenters/ViewInterfaces/IPageLinksView.cs
+END
+IBlogListView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Presenters/ViewInterfaces/IBlogListView.cs
+END
+IDefaultPageView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Presenters/ViewInterfaces/IDefaultPageView.cs
+END
+IHomeSideBarView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Presenters/ViewInterfaces/IHomeSideBarView.cs
+END
+IBlogSingleView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/DPProjects/!svn/ver/403/trunk/CWM/CWM.Presenters/ViewInterfaces/IBlogSingleView.cs
+END
+IPollView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/DPProjects/!svn/ver/406/trunk/CWM/CWM.Presenters/ViewInterfaces/IPollView.cs
+END
